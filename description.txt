@@ -1,0 +1,18 @@
+I have implemented the salary prediction model in python and jupyter notebook.
+
+Feature selection:
+I have selected the following features to build the model:
+1)Job group code
+2)Job Code
+3)Union code.
+4)Department name.
+5)Worker group code.
+
+
+I have selected these features because they are unique attributes and has the hieghest wieghtage combination comapared to all other combinations of features.
+
+The model was created using linear regression and the coeffiecients are as follows:
+array([-1078.05919067,    36.32895972,    -2.26063786,   -35.61269195, -57.97721512])
+
+The intercept derived from the above model is 
+14151.680554308256
